@@ -362,7 +362,7 @@ function lib:initLibrary()
         
         local main = utility.create("Frame", {
             Size = UDim2.new(1, 0, 0, sizeY),
-            BorderColor3 = Color3.fromRGB(20, 20, 20),
+            BorderColor3 = Color3.fromRGB(77, 0, 255),
             BackgroundColor3 = Color3.fromRGB(32, 32, 32),
             Parent = topbar
         })
