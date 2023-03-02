@@ -545,7 +545,7 @@ function lib:initLibrary()
                 local section = utility.create("Frame", {
                     ZIndex = 2,
                     Size = UDim2.new(1, -2, 1, -2),
-                    BorderColor3 = Color3.fromRGB(0, 239, 255),
+                    BorderColor3 = Color3.fromRGB(22, 22, 22),
                     Position = UDim2.new(0, 1, 0, 1),
                     BackgroundColor3 = Color3.fromRGB(22, 22, 22),
                     Parent = sectionHolder
@@ -719,7 +719,7 @@ function lib:initLibrary()
                     local button = utility.create("TextButton", {
                         ZIndex = 3,
                         Size = UDim2.new(1, 0, 0, 16),
-                        BorderColor3 = Color3.fromRGB(22, 22, 22),
+                        BorderColor3 = Color3.fromRGB(77, 0, 255),
                         Font = Enum.Font.Gotham,
                         BackgroundColor3 = Color3.fromRGB(255, 255, 255),
                         Text = "",
