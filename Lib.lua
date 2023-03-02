@@ -545,7 +545,7 @@ function lib:initLibrary()
                 local section = utility.create("Frame", {
                     ZIndex = 2,
                     Size = UDim2.new(1, -2, 1, -2),
-                    BorderColor3 = Color3.fromRGB(22, 22, 22),
+                    BorderColor3 = Color3.fromRGB(33, 33, 33),
                     Position = UDim2.new(0, 1, 0, 1),
                     BackgroundColor3 = Color3.fromRGB(22, 22, 22),
                     Parent = sectionHolder
